@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+<body>
+    <h2>Form</h2>
+    <form class="form" name="validateform" action="action.html" method="post" onsubmit="return validationForm()">
+        <div class="row">
+            <label>First name : </label>
+        <input name="fname" type="text" placeholder="Enter your first name">
+        </div>
+        <div class="row">
+            <label>Last name : </label>
+            <input name="lname" type="text" placeholder="Enter your last name">
+        </div>
+        <div class="row">
+            <label>City : </label>
+            <input name="city" type="city" placeholder="Enter your city">
+        </div>
+        <div class="row">
+            <label>Phone number : </label>
+            <input name="phonenumber" type="number" placeholder="Enter your phone number">
+        </div>
+        <div class="row">
+            <label>Address : </label>
+            <textarea name="address" col="3" type="text" placeholder="Enter your address"></textarea>
+        </div>
+        <div class="row">
+            <button class="button" value="submit" >Submit</button>
+        </div>
+    </form>
+</body>
+</html>
